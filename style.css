@@ -9,15 +9,17 @@
   justify-content: center;
   font-family: oxfam_tstar_proheadline, RobotoCondensed-Bold-webfont, Arial,
     sans-serif;
+   
 }
 
 li {
   list-style: none;
   padding: 1px 1px;
+  
 }
 li a {
   width: 15vw;
-  background-color: #333;
+  background-color: black;
   /* float to place element to the left of container */
   float: left;
   color: #f2f2f2;
@@ -32,6 +34,52 @@ li a {
   display: flex;
   align-items: center;
   padding-left: 8vw;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.9rem;
+  max-width: 68.75rem;
+  margin: 2rem auto -6rem;
+
+}
+
+.intro-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+
+}
+
+.unite{
+  color: #008CBA;
+}
+
+.bright{
+  color: black;
+}
+
+
+.whitebttn{
+  text-decoration: none;
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 0.6rem;
+  border: none;
+  font-size: 1.4rem;
+  border-radius: 0.3rem;
+  background-color: #008CBA;
+  color: white;
+  text-shadow: -1px 1px 0 #000;
+}
+
+iframe{
+  max-width: 30rem;
+  border-top: 2.5rem groove #333;
+  border-bottom: 2.5rem groove #333;
+  border-right: 1.75rem solid #333;
+  border-left: 1.75rem solid #333;
 }
 
 img {
@@ -59,9 +107,9 @@ footer form, footer p {
   padding-left: 4vw;
 }
 
-
 footer h3 {
   padding-top: 2vh;
+  
 }
 footer input[type="submit"] {
     border: none;
@@ -75,22 +123,26 @@ footer input[type="submit"] {
     background-color: #008CBA;
     padding: 15px 32px;
     
-
+    
 }
 footer input[type="text"] {
   border: none;
-  color: white;
+  color: black;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
 
-  background-color: #008CBA;
+  background-color: white;
   padding: 15px 32px;
   
 
 }
 .donate-submit{
     display: flex;
+}
+
+a {
+  text-decoration: none;
 }
