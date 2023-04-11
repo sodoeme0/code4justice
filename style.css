@@ -60,17 +60,6 @@ li a {
   color: black;
 }
 
-.contact input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 10px 0 10px;
-  box-sizing: border-box;
-}
-
-.button{
-  text-align: center;
- 
-}
 
 .whitebttn{
   text-decoration: none;
@@ -141,10 +130,6 @@ footer input[type="submit"] {
     padding: 15px 32px;  
    
 }
-.button {
-  justify-content: center;
-  
-}
 
 footer input[type="text"] {
   border: none;
@@ -166,4 +151,26 @@ footer input[type="text"] {
 
 a {
   text-decoration: none;
+}
+
+/* Below is styling for contact page */
+.button{
+  text-align: center;
+ 
+}
+
+.contact input[type=text] {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 15px 0px 0 15px;
+  box-sizing: border-box;
+}
+
+.SadPictures{
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding-left: 10rem;
+  padding-top: 2rem;
+  padding-bottom: .5px;
 }
