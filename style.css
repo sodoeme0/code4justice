@@ -31,7 +31,7 @@ li a {
 .above-nav {
   display: flex;
   align-items: center;
-  padding-left: 4vw;
+  padding-left: 8vw;
 }
 
 img {
@@ -49,16 +49,17 @@ footer {
   bottom: 0;
 }
 
-footer * {
-  padding-bottom: 4vw;
+
+
+footer *{
+  padding-bottom: 10px;
 }
-footer form {
+
+footer form, footer p {
   padding-left: 4vw;
 }
 
-footer p {
-  padding-left: 4vw;
-}
+
 footer h3 {
   padding-top: 2vh;
 }
@@ -76,7 +77,20 @@ footer input[type="submit"] {
     
 
 }
+footer input[type="text"] {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
 
+  background-color: #008CBA;
+  padding: 15px 32px;
+  
+
+}
 .donate-submit{
     display: flex;
 }
