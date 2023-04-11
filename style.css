@@ -19,7 +19,7 @@ li {
 }
 li a {
   width: 15vw;
-  background-color: #333;
+  background-color: black;
   /* float to place element to the left of container */
   float: left;
   color: #f2f2f2;
@@ -53,13 +53,24 @@ li a {
 }
 
 .unite{
-  color: blue;
+  color: #008CBA;
 }
 
 .bright{
   color: black;
 }
 
+.contact input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 10px 0 10px;
+  box-sizing: border-box;
+}
+
+.button{
+  text-align: center;
+ 
+}
 
 .whitebttn{
   text-decoration: none;
@@ -69,7 +80,7 @@ li a {
   border: none;
   font-size: 1.4rem;
   border-radius: 0.3rem;
-  background-color: blue;
+  background-color: #008CBA;
   color: white;
   text-shadow: -1px 1px 0 #000;
 }
@@ -89,7 +100,7 @@ img {
 }
 
 footer {
-  color: blue;
+  color: white;
   background-color: black;
   height: 20vh;
   width: 100%;
@@ -104,20 +115,19 @@ footer * {
 }
 
 
-
 footer *{
   padding-bottom: 10px;
 }
 
 footer form, footer p {
   padding-left: 4vw;
-  position: fixed;
 }
 
 footer h3 {
   padding-top: 2vh;
   
 }
+
 footer input[type="submit"] {
     border: none;
     color: white;
@@ -127,21 +137,25 @@ footer input[type="submit"] {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: blue;
-    padding: 15px 32px;
-    
-    
+    background-color: #008CBA;
+    padding: 15px 32px;  
+   
 }
+.button {
+  justify-content: center;
+  
+}
+
 footer input[type="text"] {
   border: none;
-  color: white;
+  color: black;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
 
-  background-color: #008CBA;
+  background-color: white;
   padding: 15px 32px;
   
 
