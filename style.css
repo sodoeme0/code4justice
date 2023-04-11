@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: oxfam_tstar_proheadline, RobotoCondensed-Bold-webfont, Arial,
+    sans-serif;
+}
+
+li {
+  list-style: none;
+  padding: 1px 1px;
+}
+li a {
+  width: 15vw;
+  background-color: #333;
+  /* float to place element to the left of container */
+  float: left;
+  color: #f2f2f2;
+  /* left and right padding */
+  padding: 14px 16px;
+  /* remove a tag default styling */
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.above-nav {
+  display: flex;
+  align-items: center;
+  padding-left: 4vw;
+}
+
+img {
+  object-fit: contain;
+  height: 10vh;
+  width: auto;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  height: 20vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+footer * {
+  padding-bottom: 4vw;
+}
+footer form {
+  padding-left: 4vw;
+}
+
+footer p {
+  padding-left: 4vw;
+}
+footer h3 {
+  padding-top: 2vh;
+}
+footer input[type="submit"] {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #008CBA;
+    padding: 15px 32px;
+    
+
+}
+
+.donate-submit{
+    display: flex;
+}
