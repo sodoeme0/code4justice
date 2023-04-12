@@ -38,15 +38,15 @@
   
 
 h1{
-    color:blue;
+    color:#008CBA;
     text-align: center;}
 
  h2{
-    color:blue;    
+    color:#008CBA;    
 }
 
 h3{
-    color: blue;
+    color: #008CBA;
     font-size: 1.6rem;
 }
 
@@ -81,7 +81,7 @@ h3{
 
 
   footer {
-    color: blue;
+    color: #008CBA;
     background-color: black;
     height: 20vh;
     width: 100%;
@@ -116,7 +116,7 @@ h3{
       font-size: 16px;
       margin: 4px 2px;
       cursor: pointer;
-      background-color: blue;
+      background-color: #008CBA;
       padding: 15px 32px;
       
       
