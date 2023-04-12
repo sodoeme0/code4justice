@@ -36,6 +36,7 @@ li a {
   padding-left: 8vw;
 }
 
+
 .hero {
   display: flex;
   align-items: center;
@@ -43,7 +44,6 @@ li a {
   gap: 1.9rem;
   max-width: 68.75rem;
   margin: 2rem auto -6rem;
-
 }
 
 .intro-text h1 {
@@ -60,6 +60,10 @@ li a {
   color: black;
 }
 
+.aboutUs{
+  color: #008CBA;
+}
+
 
 .whitebttn{
   text-decoration: none;
@@ -72,6 +76,22 @@ li a {
   background-color: #008CBA;
   color: white;
   text-shadow: -1px 1px 0 #000;
+}
+
+/* for About pg */
+.parallax {
+  text-align: center;
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./IMGS/campaign.jpg");
+  background-size: cover;
+  background-position: center;
+/*  this is where the magic happens:  */
+  background-attachment: fixed; 
 }
 
 iframe{
@@ -93,7 +113,7 @@ footer {
   background-color: black;
   height: 20vh;
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }
 
@@ -127,24 +147,11 @@ footer input[type="submit"] {
     margin: 4px 2px;
     cursor: pointer;
     background-color: #008CBA;
-    padding: 15px 32px;  
-   
+    padding: 15px 32px;
+    
+    
 }
 
-footer input[type="text"] {
-  border: none;
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-
-  background-color: white;
-  padding: 15px 32px;
-  
-
-}
 .donate-submit{
     display: flex;
 }
@@ -171,31 +178,32 @@ a {
   align-items: center;
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  padding-left: 10rem;
-  padding-top: 2rem;
-  padding-bottom: .5px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  flex-direction: row;
 }
 
 .SadPictures .KidShoes{
-  height: 5.5rem;
+  height: 10rem;
   margin-bottom: 2rem;
   width: 3rem;
 }
 
 #OldBeggar{
-  height: 5rem;
+  height: 10rem;
   margin-bottom: 2rem;
 }
 
  .SadKids{
-  height: 5.5rem;
-  margin-bottom: 2rem;
+  height: 10rem;
+  margin-bottom: 1rem;
 
 }
 
 #Homeless{
-  height: 5.5rem;
-  margin-bottom: 2rem;
+  height: 10rem;
+  margin-bottom: 1rem;
 }
 
 h2{
