@@ -82,17 +82,36 @@ h3{
     padding-left: 20px;
   }
 
+  .p1{
+    display: flex;
+    padding-right: 40%;
+    
+   }
+
   
+  .pov{
+    /* display: block;
+    margin-left: 80%;
+    width: 30vw;
+    height: 20vh; */
+    position: absolute;
+    right: 8%;
+   
+    z-index: -1;
+    width: 25vw;
+    height: 15vh;
+    
+    }
 
-
-
-
-
-
+  
+  
+  
+  
+  
   footer {
     color: white;
     background-color: black;
-    height: 20vh;
+    height: 12vh;
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -137,6 +156,13 @@ h3{
   a {
     text-decoration: none;
   }
+
+
+
+
+
+
+  
 
   
 
