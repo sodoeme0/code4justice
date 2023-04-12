@@ -61,13 +61,14 @@ h3{
     display: flex;
     justify-content: center;
   }
+  
   img {
-    width: 25vw;
-    height: 25vh;
+    width: 15vw;
+    height: 15vh;
+    display: flex;
+    flex-flow: row-reverse;
   }
-  .image {
-    flex-basis: 40%;
-}
+
   .text {
     font-size: 15px;
     padding-left: 20px;
@@ -81,32 +82,33 @@ h3{
 
 
   footer {
-    color: #008CBA;
+    color: white;
     background-color: black;
     height: 20vh;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
   }
+  
   
   footer * {
     padding-bottom: 4vw;
    
   }
   
-  footer form {
-    padding-left: 4vw;
-    position: fixed;
+  
+  footer *{
+    padding-bottom: 10px;
   }
   
-  footer p {
+  footer form, footer p {
     padding-left: 4vw;
-    
   }
+  
   footer h3 {
-    padding-top: 2vh;
-    
+    padding-top: 2vh; 
   }
+  
   footer input[type="submit"] {
       border: none;
       color: white;
@@ -117,9 +119,7 @@ h3{
       margin: 4px 2px;
       cursor: pointer;
       background-color: #008CBA;
-      padding: 15px 32px;
-      
-      
+      padding: 15px 32px;  
   }
   
   .donate-submit{
