@@ -38,15 +38,15 @@
   
 
 h1{
-    color:blue;
+    color:#008CBA;
     text-align: center;}
 
  h2{
-    color:blue;    
+    color:#008CBA;    
 }
 
 h3{
-    color: blue;
+    color: #008CBA;
     font-size: 1.6rem;
 }
 
@@ -61,52 +61,73 @@ h3{
     display: flex;
     justify-content: center;
   }
+  
   img {
-    width: 25vw;
-    height: 25vh;
+    width: 15vw;
+    height: 15vh;
+    display: flex;
+    flex-flow: row-reverse;
   }
-  .image {
-    flex-basis: 40%;
-}
+
   .text {
     font-size: 15px;
     padding-left: 20px;
   }
 
+  .p1{
+    display: flex;
+    padding-right: 40%;
+    
+   }
+
   
-
-
-
-
-
-
-  footer {
-    color: blue;
-    background-color: black;
-    height: 20vh;
-    width: 100%;
+  .pov{
+    /* display: block;
+    margin-left: 80%;
+    width: 30vw;
+    height: 20vh; */
     position: absolute;
+    right: 8%;
+   
+    z-index: -1;
+    width: 25vw;
+    height: 15vh;
+    
+    }
+
+  
+  
+  
+  
+  
+  footer {
+    color: white;
+    background-color: black;
+    height: 12vh;
+    width: 100%;
+    position: fixed;
     bottom: 0;
   }
+  
   
   footer * {
     padding-bottom: 4vw;
    
   }
   
-  footer form {
-    padding-left: 4vw;
-    position: fixed;
+  
+  footer *{
+    padding-bottom: 10px;
   }
   
-  footer p {
+  footer form, footer p {
     padding-left: 4vw;
-    
   }
+  
   footer h3 {
-    padding-top: 2vh;
-    
+    padding-top: 2vh; 
   }
+  
   footer input[type="submit"] {
       border: none;
       color: white;
@@ -116,10 +137,8 @@ h3{
       font-size: 16px;
       margin: 4px 2px;
       cursor: pointer;
-      background-color: blue;
-      padding: 15px 32px;
-      
-      
+      background-color: #008CBA;
+      padding: 15px 32px;  
   }
   
   .donate-submit{
@@ -129,6 +148,13 @@ h3{
   a {
     text-decoration: none;
   }
+
+
+
+
+
+
+  
 
   
 
