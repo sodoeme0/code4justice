@@ -19,7 +19,7 @@ li {
 }
 li a {
   width: 15vw;
-  background-color: #333;
+  background-color: black;
   /* float to place element to the left of container */
   float: left;
   color: #f2f2f2;
@@ -33,7 +33,7 @@ li a {
 .above-nav {
   display: flex;
   align-items: center;
-  padding-left: 4vw;
+  padding-left: 8vw;
 }
 
 .hero {
@@ -53,7 +53,7 @@ li a {
 }
 
 .unite{
-  color: blue;
+  color: #008CBA;
 }
 
 .bright{
@@ -69,7 +69,7 @@ li a {
   border: none;
   font-size: 1.4rem;
   border-radius: 0.3rem;
-  background-color: blue;
+  background-color: #008CBA;
   color: white;
   text-shadow: -1px 1px 0 #000;
 }
@@ -89,7 +89,7 @@ img {
 }
 
 footer {
-  color: blue;
+  color: white;
   background-color: black;
   height: 20vh;
   width: 100%;
@@ -97,24 +97,26 @@ footer {
   bottom: 0;
 }
 
+
 footer * {
   padding-bottom: 4vw;
  
 }
 
-footer form {
-  padding-left: 4vw;
-  position: fixed;
+
+footer *{
+  padding-bottom: 10px;
 }
 
-footer p {
+footer form, footer p {
   padding-left: 4vw;
-  
 }
+
 footer h3 {
   padding-top: 2vh;
   
 }
+
 footer input[type="submit"] {
     border: none;
     color: white;
@@ -124,16 +126,84 @@ footer input[type="submit"] {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: blue;
-    padding: 15px 32px;
-    
-    
+    background-color: #008CBA;
+    padding: 15px 32px;  
+   
 }
 
+footer input[type="text"] {
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+
+  background-color: white;
+  padding: 15px 32px;
+  
+
+}
 .donate-submit{
     display: flex;
 }
 
 a {
   text-decoration: none;
+}
+
+/* Below is styling for contact page */
+.button{
+  text-align: center;
+ 
+}
+
+.contact input[type=text] {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 15px 0px 0 1px;
+  box-sizing: border-box;
+  border-style: solid black;
+}
+
+.SadPictures{
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding-left: 10rem;
+  padding-top: 2rem;
+  padding-bottom: .5px;
+}
+
+.SadPictures .KidShoes{
+  height: 5.5rem;
+  margin-bottom: 2rem;
+  width: 3rem;
+}
+
+#OldBeggar{
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+
+ .SadKids{
+  height: 5.5rem;
+  margin-bottom: 2rem;
+
+}
+
+#Homeless{
+  height: 5.5rem;
+  margin-bottom: 2rem;
+}
+
+h2{
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.ContactUs .heading h2 span{
+  color: #008CBA;
+  
 }
