@@ -36,6 +36,10 @@ li a {
   padding-left: 4vw;
 }
 
+body {
+  background-color: lightgrey;
+}
+
 .hero {
   display: flex;
   align-items: center;
@@ -43,7 +47,6 @@ li a {
   gap: 1.9rem;
   max-width: 68.75rem;
   margin: 2rem auto -6rem;
-
 }
 
 .intro-text h1 {
@@ -58,6 +61,10 @@ li a {
 
 .bright{
   color: black;
+}
+
+.aboutUs{
+  color: blue;
 }
 
 
@@ -125,10 +132,9 @@ footer input[type="submit"] {
     margin: 4px 2px;
     cursor: pointer;
     background-color: blue;
-    padding: 15px 32px;
-    
-    
+    padding: 15px 32px;    
 }
+
 
 .donate-submit{
     display: flex;
