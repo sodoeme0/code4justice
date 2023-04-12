@@ -9,11 +9,13 @@
   justify-content: center;
   font-family: oxfam_tstar_proheadline, RobotoCondensed-Bold-webfont, Arial,
     sans-serif;
+   
 }
 
 li {
   list-style: none;
   padding: 1px 1px;
+  
 }
 li a {
   width: 15vw;
@@ -34,6 +36,52 @@ li a {
   padding-left: 4vw;
 }
 
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.9rem;
+  max-width: 68.75rem;
+  margin: 2rem auto -6rem;
+
+}
+
+.intro-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+
+}
+
+.unite{
+  color: blue;
+}
+
+.bright{
+  color: black;
+}
+
+
+.whitebttn{
+  text-decoration: none;
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 0.6rem;
+  border: none;
+  font-size: 1.4rem;
+  border-radius: 0.3rem;
+  background-color: blue;
+  color: white;
+  text-shadow: -1px 1px 0 #000;
+}
+
+iframe{
+  max-width: 30rem;
+  border-top: 2.5rem groove #333;
+  border-bottom: 2.5rem groove #333;
+  border-right: 1.75rem solid #333;
+  border-left: 1.75rem solid #333;
+}
+
 img {
   object-fit: contain;
   height: 10vh;
@@ -41,7 +89,7 @@ img {
 }
 
 footer {
-  color: white;
+  color: blue;
   background-color: black;
   height: 20vh;
   width: 100%;
@@ -51,16 +99,21 @@ footer {
 
 footer * {
   padding-bottom: 4vw;
+ 
 }
+
 footer form {
   padding-left: 4vw;
+  position: fixed;
 }
 
 footer p {
   padding-left: 4vw;
+  
 }
 footer h3 {
   padding-top: 2vh;
+  
 }
 footer input[type="submit"] {
     border: none;
@@ -71,12 +124,16 @@ footer input[type="submit"] {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: #008CBA;
+    background-color: blue;
     padding: 15px 32px;
     
-
+    
 }
 
 .donate-submit{
     display: flex;
+}
+
+a {
+  text-decoration: none;
 }
