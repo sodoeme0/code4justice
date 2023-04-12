@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="above-nav">
+        <a href="index.html" class="grid-item"><img src="IMGS/stark.png" alt="" /></a>
+
+        <h3 class="grid-item">The Stark Foundation</h3>
+      </div>
+      <ul class="navbar">
+        <li><a href="index.html"> Home </a></li>
+        <li><a href=""> History </a></li>
+        <li><a href="involved.html"> Get Involved </a></li>
+        <li><a href=""> About Us </a></li>
+        <li><a href="contact.html"> Contact Us </a></li>
+      </ul>
+    </header>
+    
+    <section class="contact-us" id="contact-section">
+      <form id="contact" action="" method="post">
+       
+        <div class="section-heading">
+          <h4>Contact us</h4>
+        </div>
+  
+        <div class="inputField">
+          <input type="name" name="name" id="name" placeholder="Your name" autocomplete="on" required>
+          <span class="valid_info_name"></span>
+        </div>
+  
+        <div class="inputField">
+          <input type="Email" name="email" id="email" placeholder="Your email" required="" />
+          <span class="valid_info_email"></span>
+        </div>
+  
+        <div class="inputField">
+          <textarea name="message" id="message" placeholder="Your message"></textarea>
+          <span class="valid_info_message"></span>
+        </div>
+  
+        <div class="inputField btn">
+          <button type="submit" id="form-submit" class="main-gradient-button" disabled>Send a message</button>
+        </div>
+  
+      </form>
+    </section>
+
+
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="IMGS/Homeless.png" style="width:100%">
+     
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="IMGS/KidShoes.avif" style="width:100%">
+      
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="IMGS/OldBeggar.jpeg" style="width:100%">
+       
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="IMGS/SadKids.webp" style="width:100%">
+        
+      </div>
+
+     
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span id="1" class="dot"></span> 
+        <span id="2" class="dot"></span> 
+        <span id="3" class="dot"></span> 
+        <span id="4" class="dot"></span> 
+
+      </div>
+
+    <footer>
+        <form action="">
+          <label><h3>Donate Now</h3></label>
+          <div class="donate-submit">
+            <input type="text" />
+            <input type="submit" />
+        </form>
+        <p>
+          Make sure your gift to Oxfam America goes directly to where it's most
+          needed, without delay, with a secure online donation.
+        </p>
+        <p>&copy;2023. All Rights Reserved</p>
+
+        <br>
+    
+    
+      </div>
+      </footer>
+
+
+
+      <script>
+        let slideIndex = 0;
+        
+        
+
+        
+
+        let dots = document.getElementsByClassName("dot");
+        let slides = document.getElementsByClassName("mySlides");
+          slides[0].style.display = "block";  
+          dots[0].className += " active";
+        for (const element of dots) {
+        element.addEventListener("click", e => {
+            console.log(e.target.id);
+
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+
+            let slide = e.target.id-1
+            slides[slide].style.display = "block";  
+          dots[slide].className += " active";
+        })
+       }
+        
+
+        
+        </script>
+    </body>
+  </html>
+  

@@ -98,6 +98,11 @@ footer {
 }
 
 
+footer * {
+  padding-bottom: 4vw;
+ 
+}
+
 
 footer *{
   padding-bottom: 10px;
@@ -111,6 +116,7 @@ footer h3 {
   padding-top: 2vh;
   
 }
+
 footer input[type="submit"] {
     border: none;
     color: white;
@@ -121,10 +127,10 @@ footer input[type="submit"] {
     margin: 4px 2px;
     cursor: pointer;
     background-color: #008CBA;
-    padding: 15px 32px;
-    
-    
+    padding: 15px 32px;  
+   
 }
+
 footer input[type="text"] {
   border: none;
   color: black;
@@ -154,10 +160,12 @@ a {
   width: 100%;
   background-repeat: no-repeat;
   background-position: center 50%;
-  display: flex;
-  align-items: center;
+ 
+  filter: grayscale(100%); /* W3C */
+
 
 }
+
 
 .involved-hero h1{
   color: white;
@@ -204,12 +212,18 @@ a {
 }
 .a{
   background-color: #7aceea;
+  filter: grayscale(50%); /* W3C */
+
 }
 .b{
   background-color: #52c186;
+  filter: grayscale(50%); /* W3C */
+
 }
 .c{
   background-color: antiquewhite;
+  filter: grayscale(50%); /* W3C */
+
 }
 .card h2{
   font-size: 1.5em;
@@ -232,3 +246,129 @@ a {
 }
 
 /* end of involved pg specifcs */
+/* Below is styling for contact page */
+.button{
+  text-align: center;
+ 
+}
+
+.contact input[type=text] {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 15px 0px 0 1px;
+  box-sizing: border-box;
+  border-style: solid black;
+}
+
+.SadPictures{
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding-left: 10rem;
+  padding-top: 2rem;
+  padding-bottom: .5px;
+}
+
+.SadPictures .KidShoes{
+  height: 5.5rem;
+  margin-bottom: 2rem;
+  width: 3rem;
+}
+
+#OldBeggar{
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+
+ .SadKids{
+  height: 5.5rem;
+  margin-bottom: 2rem;
+
+}
+
+#Homeless{
+  height: 5.5rem;
+  margin-bottom: 2rem;
+}
+
+h2{
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.ContactUs .heading h2 span{
+  color: #008CBA;
+  
+}
+
+/* carosel styling */
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.mySlides img{
+
+  height: 22vmin;
+
+}
+
+
+
+
+/* end of carosel styling */
+
+
+/* end of contact styling */
