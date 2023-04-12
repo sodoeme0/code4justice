@@ -36,9 +36,6 @@ li a {
   padding-left: 4vw;
 }
 
-body {
-  background-color: lightgrey;
-}
 
 .hero {
   display: flex;
