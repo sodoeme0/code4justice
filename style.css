@@ -214,6 +214,18 @@ h2{
 }
 
 .ContactUs .heading h2 span{
-  color: #008CBA;
-  
+  color: #008CBA
+}
+
+.submit-bttn {
+  text-decoration: none;
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 0.6rem;
+  border: none;
+  font-size: 1.4rem;
+  border-radius: 0.3rem;
+  background-color: #008CBA;
+  color: white;
+  text-shadow: -1px 1px 0 #000;
 }
