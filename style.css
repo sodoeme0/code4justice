@@ -162,8 +162,9 @@ a {
 .contact input[type=text] {
   width: 100%;
   padding: 12px 10px;
-  margin: 15px 0px 0 15px;
+  margin: 15px 0px 0 1px;
   box-sizing: border-box;
+  border-style: solid black;
 }
 
 .SadPictures{
@@ -173,4 +174,36 @@ a {
   padding-left: 10rem;
   padding-top: 2rem;
   padding-bottom: .5px;
+}
+
+.SadPictures .KidShoes{
+  height: 5.5rem;
+  margin-bottom: 2rem;
+  width: 3rem;
+}
+
+#OldBeggar{
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+
+ .SadKids{
+  height: 5.5rem;
+  margin-bottom: 2rem;
+
+}
+
+#Homeless{
+  height: 5.5rem;
+  margin-bottom: 2rem;
+}
+
+h2{
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.ContactUs .heading h2 span{
+  color: #008CBA;
+  
 }
