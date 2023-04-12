@@ -93,7 +93,7 @@ footer {
   background-color: black;
   height: 20vh;
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }
 
@@ -146,3 +146,89 @@ footer input[type="text"] {
 a {
   text-decoration: none;
 }
+
+/* involved pg specifcs */
+.involved-hero{
+  background-image: url("IMGS/volunteer2.jpeg");
+  height: 25vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  display: flex;
+  align-items: center;
+
+}
+
+.involved-hero h1{
+  color: white;
+  padding-left: 5vw;
+}
+
+.img{
+  height: auto;
+  width: 100%;
+}
+
+.involved-content{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.9rem;
+  max-width: 68.75rem;
+  margin: 4vh 6vw ;
+
+}
+
+.involved-content p {
+  font-size: 1.5em ;
+
+}
+
+.heading{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.sub{
+  margin-bottom: 1rem;
+  color: #008CBA;
+  font-size: .7em ;
+}
+
+.card{
+  text-align: left;
+  width: 20vw;
+  
+  padding: .5vw;
+  margin-bottom: 10px;
+
+}
+.a{
+  background-color: #7aceea;
+}
+.b{
+  background-color: #52c186;
+}
+.c{
+  background-color: antiquewhite;
+}
+.card h2{
+  font-size: 1.5em;
+  padding-bottom: 5px;
+}
+.card p{
+  font-size: 1.2em;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+.oppertunites{
+  display: flex;
+
+  margin-left: 6vw;
+  margin-right: 6vw;
+}
+
+/* end of involved pg specifcs */
