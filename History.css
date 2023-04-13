@@ -1,0 +1,116 @@
+
+
+/* position content */
+.container {
+    margin-left: 6vw;
+    margin-right: 6vw;
+  }
+
+  /* title */
+   .history {
+    color:#008CBA;
+    text-align: center;
+    font-size: 3rem;  
+   }
+
+   /*  align h3 adn style*/
+  .h3{
+    display: flex;
+    justify-content: left;
+    color: #008CBA;
+    font-size: 1.8rem;
+    
+  } 
+  
+  /* side img size format */
+  .side-img {
+    width: 15vw;
+    
+    
+  }
+  /* align text and bottom margin for sections */
+section{
+  text-align: left;
+  margin-bottom: 2vh;
+}
+/* flex display for article section */
+article{
+  display: flex;
+}
+
+/* left margin for div in article */
+article div{
+
+  margin-left: 4vw;
+
+}
+
+ section p{
+  font-size: 1.5em;
+}
+/* small screens and tablets */
+
+@media (max-width: 1024px) {
+  /* change font sizes */
+  .history {
+    color:#008CBA;
+    text-align: center;
+    font-size: 5vw;  
+   }
+
+  .h3{
+    display: flex;
+    justify-content: left;
+    color: #008CBA;
+    font-size: 4vw;
+    
+  }
+ 
+  section p{
+    font-size: 2.2vw;
+  }
+}
+
+/* mobile devices */
+
+  
+@media (max-width: 600px) {
+  /* change font sizes */
+  .history {
+    color:#008CBA;
+    text-align: center;
+    font-size: 7vw;  
+   }
+
+  .h3{
+    display: flex;
+    justify-content: left;
+    color: #008CBA;
+    font-size: 5vw;
+    
+  }
+ 
+  section p{
+    font-size: 3.5vw;
+  }
+}
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
