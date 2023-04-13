@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css">
     <title>Document</title>
   </head>
   <body>
@@ -23,39 +24,75 @@
       </ul>
     </header>
     
-    <section class="ContactUs" id="ContactUs">
-            <div class="heading text-center">
-                <h2>Contact
-                    <span> Us </span></h2>
-                    </div>
-                </section>
-
-    <form>
-        <div class="contact">
-        <input type="text" placeholder="First Name" required><br>
-        <input type="text" placeholder="Last Name" required><br>
-        <input type="text" placeholder="Email" required><br>
-        <input type="text" placeholder="Type your message here" style="height: 100px"><br>
+    <section class="contact-us" id="contact-section">
+      <form id="contact" action="" method="post">
+       
+        <div class="section-heading">
+          <h4>Contact us</h4>
         </div>
-        <div class="button">
-        <button>Submit</button>
+  
+        <div class="inputField">
+          <input type="name" name="name" id="name" placeholder="Your name" autocomplete="on" required>
+          <span class="valid_info_name"></span>
         </div>
+  
+        <div class="inputField">
+          <input type="Email" name="email" id="email" placeholder="Your email" required="" />
+          <span class="valid_info_email"></span>
+        </div>
+  
+        <div class="inputField">
+          <textarea name="message" id="message" placeholder="Your message"></textarea>
+          <span class="valid_info_message"></span>
+        </div>
+  
+        <div class="inputField btn">
+          <button type="submit" id="form-submit" class="main-gradient-button" disabled>Send a message</button>
+        </div>
+  
       </form>
-    
-      <section class="SadPictures">
-        <div class="KidShoes">
-            <img src="/IMGS/KidShoes.avif"id="KidShoes" style="border: solid" width="400" height="400">
-        </div>
-        <div class="OldBeggar">
-            <img src="/IMGS/OldBeggar.jpeg"id="OldBeggar" style="border: solid" width="400" height="400" >
-        </div>
-        <div class="SadKids">
-            <img src="/IMGS/SadKids.webp"id="SadKids" style="border: solid" width="400" height="400" >
-        </div>
-        <div class="Homeless">
-            <img src="/IMGS/Homeless.png"id="Homeless" style="border: solid" width="400" height="400">
-        </div>
-      </section>
+    </section>
+
+
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="IMGS/Homeless.png" style="width:100%">
+     
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="IMGS/KidShoes.avif" style="width:100%">
+      
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="IMGS/OldBeggar.jpeg" style="width:100%">
+       
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="IMGS/SadKids.webp" style="width:100%">
+        
+      </div>
+
+     
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span id="1" class="dot"></span> 
+        <span id="2" class="dot"></span> 
+        <span id="3" class="dot"></span> 
+        <span id="4" class="dot"></span> 
+
+      </div>
 
     <footer>
         <form action="">
@@ -75,6 +112,40 @@
     
       </div>
       </footer>
+
+
+
+      <script>
+        let slideIndex = 0;
+        
+        
+
+        
+
+        let dots = document.getElementsByClassName("dot");
+        let slides = document.getElementsByClassName("mySlides");
+          slides[0].style.display = "block";  
+          dots[0].className += " active";
+        for (const element of dots) {
+        element.addEventListener("click", e => {
+            console.log(e.target.id);
+
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+
+            let slide = e.target.id-1
+            slides[slide].style.display = "block";  
+          dots[slide].className += " active";
+        })
+       }
+        
+
+        
+        </script>
     </body>
   </html>
   
