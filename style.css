@@ -14,7 +14,7 @@
 
 li {
   list-style: none;
-  padding: 1px 1px;
+  padding: 0.063rem 0.063rem;
   
 }
 li a {
@@ -24,10 +24,10 @@ li a {
   float: left;
   color: #f2f2f2;
   /* left and right padding */
-  padding: 14px 16px;
+  padding: 0.875rem 1rem;
   /* remove a tag default styling */
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.063rem;
 }
 
 .above-nav {
@@ -76,7 +76,7 @@ li a {
   border-radius: 0.3rem;
   background-color: #008CBA;
   color: white;
-  text-shadow: -1px 1px 0 #000;
+  text-shadow: -0.063rem 0.063rem 0 #000;
 }
 
 .greenbttn{
@@ -89,7 +89,7 @@ li a {
     border-radius: 0.3rem;
     background-color: #52c186;
     color: white;
-    text-shadow: -1px 1px 0 #000;
+    text-shadow: -0.063rem 0.063rem 0 #000;
   }
 
 
@@ -162,7 +162,7 @@ footer * {
 
 
 footer *{
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
 }
 
 footer form, footer p {
@@ -180,17 +180,17 @@ footer input[type="submit"] {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1rem;
+    margin: 0.25rem 0.125rem;
     cursor: pointer;
     background-color:  #52c186;
-    padding: 15px 32px;    
+    padding: 0.938rem 2rem;    
 }
 
 
 ========= {
     background-color: #008CBA;
-    padding: 15px 32px;  
+    padding: 0.938rem 2rem;  
    
 }
 
@@ -200,11 +200,11 @@ footer input[type="text"] {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 1rem;
+  margin: 0.25rem 0.125rem;
 
   background-color: white;
-  padding: 15px 32px;
+  padding: 0.938rem 2rem;
   
 
 }
@@ -271,7 +271,7 @@ a {
   width: 20vw;
   
   padding: .5vw;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 
 }
 .a{
@@ -291,7 +291,7 @@ a {
 }
 .card h2{
   font-size: 1.5em;
-  padding-bottom: 5px;
+  padding-bottom: 0.313rem;
 }
 .card p{
   font-size: 1.2em;
@@ -300,7 +300,7 @@ a {
 .column{
   display: flex;
   flex-direction: column;
-  padding-right: 10px;
+  padding-right: 0.625rem;
 }
 .oppertunites{
   display: flex;
@@ -318,8 +318,8 @@ a {
 
 .contact input[type=text] {
   width: 100%;
-  padding: 12px 10px;
-  margin: 15px 0px 0 1px;
+  padding: 0.75rem 0.625rem;
+  margin: 0.938rem 0 0 0.063rem;
   box-sizing: border-box;
   border-style: solid black;
 }
@@ -330,7 +330,7 @@ a {
   grid-template-columns: repeat(4,1fr);
   padding-left: 10rem;
   padding-top: 2rem;
-  padding-bottom: .5px;
+  padding-bottom: 0.031rem;
 }
 
 .SadPictures .KidShoes{
@@ -358,7 +358,7 @@ a {
 h2{
   text-align: center;
   padding-top: 1rem;
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 .ContactUs .heading h2 span{
@@ -376,17 +376,17 @@ h2{
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
+  font-size: 0.75rem;
+  padding: 0.5rem 0.75rem;
   position: absolute;
   top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
+  height: 0.938rem;
+  width: 0.938rem;
+  margin: 0 0.125rem;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -430,7 +430,7 @@ h2{
 
 
 .hamburger-container {
-  max-width: 1050px;
+  max-width: 65.625rem;
   width: 90%;
   margin: auto;
 }
@@ -438,14 +438,14 @@ h2{
 .hamburger {
   display: none;
   width: 100%;
-  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+  box-shadow: 0 0.063rem 0.25rem rgb(146 161 176 / 15%);
 }
 
 .nav-hamburger-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 62px;
+  height: 3.875rem;
 }
 
 .hamburger .menu-items {
@@ -471,16 +471,16 @@ h2{
 .nav-hamburger-container {
   display: block;
   position: relative;
-  height: 60px;
+  height: 3.75rem;
 }
 
 .nav-hamburger-container .checkbox {
   position: absolute;
   display: block;
-  height: 32px;
-  width: 32px;
-  top: 20px;
-  left: 20px;
+  height: 2rem;
+  width: 2rem;
+  top: 1.25rem;
+  left: 1.25rem;
   z-index: 5;
   opacity: 0;
   cursor: pointer;
@@ -488,11 +488,11 @@ h2{
 
 .nav-hamburger-container .hamburger-lines {
   display: block;
-  height: 26px;
-  width: 32px;
+  height: 1.625rem;
+  width: 2rem;
   position: absolute;
-  top: 17px;
-  left: 20px;
+  top: 1.063rem;
+  left: 1.25rem;
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -501,9 +501,9 @@ h2{
 
 .nav-hamburger-container .hamburger-lines .line {
   display: block;
-  height: 4px;
+  height: 0.25rem;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 0.625;
   background: #0e2431;
 }
 
@@ -522,15 +522,15 @@ h2{
 }
 
 .hamburger .menu-items {
-  padding-top: 120px;
+  padding-top: 7.5rem;
   background-color: rgba(0, 0, 0, .6);
   height: 100vh;
   width: 100vw;
   transform: translate(-150%);
   display: flex;
   flex-direction: column;
-  margin-left: -40px;
-  padding-left: 50px;
+  margin-left: -2.5rem;
+  padding-left: 3.125rem;
   transition: transform 0.5s ease-in-out;
   text-align: center;
 }
@@ -550,7 +550,7 @@ h2{
 }
 .logo img{
   object-fit: contain;
-  height: 60px;
+  height: 3.75rem;
   width: auto;
 }
 
@@ -629,10 +629,11 @@ font-size: 3vw;
 /* make text on index scale to view width */
 .intro-text h1 {
   font-size: 7vw;
- 
-
 }
 .whitebttn{
+  font-size: 4vw;
+}
+.greenbttn{
   font-size: 4vw;
 }
 .index-p{
@@ -674,7 +675,7 @@ iframe{
 }
 .card h2{
   font-size: 3.9vw;
-  padding-bottom: 5px;
+  padding-bottom: 0.313rem;
 }
 .card p{
   font-size: 4vw;
@@ -691,7 +692,7 @@ iframe{
 
 }
 .card{
-  padding-right: 10px;
+  padding-right: 0.625rem;
   width: 30vw;
   
 }
