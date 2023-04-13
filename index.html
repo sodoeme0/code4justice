@@ -9,6 +9,30 @@
   </head>
   <body>
     <header>
+
+      <nav>
+        <div class="hamburger">
+          <div class="hamburger-container nav-hamburger-container">
+              <input class="checkbox" type="checkbox" name="" id="" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>  
+            <div class="logo">
+              <a href="" class="grid-item"><img src="IMGS/starkHam.jpeg" alt="" /></a>
+            </div>
+            <div class="menu-items">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="History.html">History</a></li>
+              <li><a href="involved.html">Get Involved</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">contact Us</a></li>
+            </div>
+          </div>
+        </div>
+      </nav>
+     
       <div class="above-nav">
         <a href="" class="grid-item"><img src="IMGS/stark.png" alt="" /></a>
 
@@ -16,7 +40,7 @@
       </div>
       <ul class="navbar">
         <li><a href="index.html"> Home </a></li>
-        <li><a href="history.html"> History </a></li>
+        <li><a href="History.html"> History </a></li>
         <li><a href="involved.html"> Get Involved </a></li>
         <li><a href="about.html"> About Us </a></li>
         <li><a href="contact.html"> Contact Us </a></li>
@@ -29,17 +53,18 @@
           <span class="unite">Let's Unite to Fight Poverty</span><br />
           <span class="bright">Make the Future Bright</span>
         </h1>
+        <div class="index-p">
        <p>
         The Stark Foundation focuses on improving the well-being of people who are in need. We work alongside communities to eliminate the roots of poverty. For every every $1 donated, we will match it equally. We want everyone to thrive.
        </p> 
+      </div>
        <a class="whitebttn" href="about.html">About Us</a>
        <a class="whitebttn" href="involved.html">Get Involved</a>
        <a class="whitebttn" href="History.html">History</a>
     </div>
     <div class="iframe">
       <iframe 
-      width="500"
-      height="315"
+    
       src="https://www.youtube.com/embed/oMr5JjEOzkY"
       title="Youtube video player"
       frameborder="5"
@@ -47,15 +72,14 @@
     </div>
 </section>
 
-
-
-    <footer>
-        <form action="">
-          <label><h3>Donate Now</h3></label>
-          <div class="donate-submit">
-            <input type="text" />
-            <input type="submit" />
-        </form>
+    <footer class="footer indeex-footer">
+      <form>
+        <label><h3>Donate Now</h3></label>
+        <div class="donate-submit">
+          <input type="text" placeholder="$100.00" />
+          <input type="submit" value="Donate" />
+        </div>
+      </form>
         <p>
           Make sure your gift to Oxfam America goes directly to where it's most
           needed, without delay, with a secure online donation.

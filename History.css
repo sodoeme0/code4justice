@@ -1,0 +1,113 @@
+
+
+
+
+
+.container {
+    margin-left: 6vw;
+    margin-right: 6vw;
+  }
+
+/* here is how I styled it to be centered */
+   .history {
+    color:#008CBA;
+    text-align: center;
+    font-size: 3rem;  
+   }
+
+  .h3{
+    display: flex;
+    justify-content: left;
+    color: #008CBA;
+    font-size: 1.8rem;
+    
+  }
+  
+  .side-img {
+    width: 15vw;
+    
+    
+  }
+section{
+  text-align: left;
+  margin-bottom: 2vh;
+}
+article{
+  display: flex;
+}
+
+article div{
+
+  margin-left: 4vw;
+
+}
+
+ section p{
+  font-size: 1.5em;
+}
+/* small screens and tablets */
+
+@media (max-width: 1024px) {
+  /* change font sizes */
+  .history {
+    color:#008CBA;
+    text-align: center;
+    font-size: 5vw;  
+   }
+
+  .h3{
+    display: flex;
+    justify-content: left;
+    color: #008CBA;
+    font-size: 4vw;
+    
+  }
+ 
+  section p{
+    font-size: 2.2vw;
+  }
+}
+
+/* mobile devices */
+
+  
+@media (max-width: 600px) {
+  /* change font sizes */
+  .history {
+    color:#008CBA;
+    text-align: center;
+    font-size: 7vw;  
+   }
+
+  .h3{
+    display: flex;
+    justify-content: left;
+    color: #008CBA;
+    font-size: 5vw;
+    
+  }
+ 
+  section p{
+    font-size: 3.5vw;
+  }
+}
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
