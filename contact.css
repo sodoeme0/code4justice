@@ -76,11 +76,12 @@ textarea {
   justify-content: flex-end;
 }
 
+
 /* button styling */
 #form-submit {
   position: relative;
   display: inline-block;
-  
+  width: 20em;
   font-size: 1.2em;
   font-weight: bold;
   letter-spacing: 1px;

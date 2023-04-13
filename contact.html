@@ -21,16 +21,17 @@
               <span class="line line3"></span>
             </div>
             <div class="logo">
-              <a href="" class="grid-item"
-                ><img src="IMGS/starkHam.jpeg" alt=""
-              /></a>
+              <a href="" class="grid-item"></a>
+                <a href="index.html" class="grid-item"
+                  ><img src="IMGS/stark.png" alt="" /></a
+              ></a>
             </div>
             <div class="menu-items">
               <li><a href="index.html">Home</a></li>
               <li><a href="History.html">History</a></li>
               <li><a href="involved.html">Get Involved</a></li>
               <li><a href="about.html">About Us</a></li>
-              <li><a href="contact.html">contact Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
             </div>
           </div>
         </div>
@@ -57,7 +58,7 @@
 
     <!-- contact card -->
     <section class="contact-us" id="contact-section">
-      <form id="contact" action="" method="post">
+      <form id="contact" action="#">
         <div class="section-heading">
           <h4>Contact us</h4>
         </div>
@@ -68,7 +69,6 @@
             name="name"
             id="name"
             placeholder="Your name"
-            autocomplete="on"
             required
           />
           <span class="valid_info_name"></span>
@@ -80,7 +80,7 @@
             name="email"
             id="email"
             placeholder="Your email"
-            required=""
+            required
           />
           <span class="valid_info_email"></span>
         </div>
@@ -90,19 +90,16 @@
             name="message"
             id="message"
             placeholder="Your message"
+            required
           ></textarea>
           <span class="valid_info_message"></span>
         </div>
 
         <div class="inputField btn">
-          <button
-            type="submit"
-            id="form-submit"
-            class="main-gradient-button"
-            disabled
-          >
-            Send a message
-          </button>
+          <input type="submit" id="form-submit"
+          value="Send a message" class="main-gradient-button" />
+
+          
         </div>
       </form>
     </section>

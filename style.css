@@ -164,8 +164,9 @@ footer input[type="submit"] {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  background-color: #008cba;
+  background-color:#52c186;
   padding: 15px 32px;
+  filter: grayscale(50%); 
 }
 footer input[type="text"] {
   border: none;
@@ -473,6 +474,9 @@ a {
   }
   .whitebttn {
     font-size: 4vw;
+  }
+  .greenbttn{
+    
   }
   .index-p {
     font-size: 5vw;
