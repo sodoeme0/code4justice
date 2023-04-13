@@ -2,19 +2,20 @@
 
 
 
-
+/* position content */
 .container {
     margin-left: 6vw;
     margin-right: 6vw;
   }
 
-/* here is how I styled it to be centered */
+  /* title */
    .history {
     color:#008CBA;
     text-align: center;
     font-size: 3rem;  
    }
 
+   /*  align h3 adn style*/
   .h3{
     display: flex;
     justify-content: left;
@@ -23,19 +24,23 @@
     
   }
   
+  /* side img size format */
   .side-img {
     width: 15vw;
     
     
   }
+  /* align text and bottom margin for sections */
 section{
   text-align: left;
   margin-bottom: 2vh;
 }
+/* flex display for article section */
 article{
   display: flex;
 }
 
+/* left margin for div in article */
 article div{
 
   margin-left: 4vw;
