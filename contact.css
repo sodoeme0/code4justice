@@ -7,7 +7,6 @@ section {
 }
 
 section.contact-us #contact {
-  position: relative;
   display: block;
   width: 80%;
   height: auto;
@@ -25,7 +24,7 @@ footer{
 
 .section-heading h4 {
   line-height: 40px;
-  font-size: 28px;
+  font-size: 3rem;
   font-weight: 900;
   color: black;
   text-align: center;
@@ -35,12 +34,10 @@ footer{
 
 .inputField input, .inputField textarea {
   width: 100%;
-  position: relative;
   display: block;
   background-color: #f4f7fb;
   font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 1.5em;
   border: none;
   box-shadow: none;
   border-radius: 5px;
@@ -82,7 +79,7 @@ textarea {
   position: relative;
   display: inline-block;
   
-  font-size: 12px;
+  font-size: 1.2em;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -97,7 +94,47 @@ textarea {
   transition: all .3s;
 }
 
+  @media (max-width: 650px) {
 
+.section-heading h4 {
+  line-height: 10vw;
+  font-size: 7vw;
+  font-weight: 900;
+  margin-bottom: 6vh;
+}
+.inputField input, .inputField textarea {
+ 
+  font-size: 5vw;
+  border-radius: 5px;
+ 
+}
+.inputField input {
+  height: 40px;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+textarea {
+  min-height: 140px;
+  max-height: 180px;
+  padding-left: 0%;
+  padding-right: 0%; 
+}
+.contact-us span {
+  height: 20px;
+	font-size: 12px;
+  margin-bottom: 20px;
+}
+
+
+
+#form-submit {
+  
+  font-size: 4vw;
+  letter-spacing: 1px;
+  padding: 12px 20px;
+  border-radius: 5px;
+}
+  }
 
 
 

@@ -1,134 +1,102 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
 
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: oxfam_tstar_proheadline, RobotoCondensed-Bold-webfont, Arial,
-      sans-serif;
-     
-  }
-  
-  li {
-    list-style: none;
-    padding: 1px 1px;
-    
-  }
-  li a {
-    width: 15vw;
-    background-color: #333;
-    /* float to place element to the left of container */
-    float: left;
-    color: #f2f2f2;
-    /* left and right padding */
-    padding: 14px 16px;
-    /* remove a tag default styling */
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .above-nav {
-    display: flex;
-    align-items: center;
-    padding-left: 4vw;
-  }
-  
 
-h1{
-    color:blue;
-    text-align: center;}
 
- h2{
-    color:blue;    
-}
-
-h3{
-    color: blue;
-    font-size: 1.6rem;
-}
 
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center
+    margin-left: 6vw;
+    margin-right: 6vw;
   }
+
 /* here is how I styled it to be centered */
+   .history {
+    color:#008CBA;
+    text-align: center;
+    font-size: 3rem;  
+   }
+
   .h3{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    color: #008CBA;
+    font-size: 1.8rem;
+    
   }
-  img {
-    width: 25vw;
-    height: 25vh;
+  
+  .side-img {
+    width: 15vw;
+    
+    
   }
-  .image {
-    flex-basis: 40%;
+section{
+  text-align: left;
+  margin-bottom: 2vh;
 }
-  .text {
-    font-size: 15px;
-    padding-left: 20px;
-  }
+article{
+  display: flex;
+}
 
-  
+article div{
 
+  margin-left: 4vw;
 
+}
 
+ section p{
+  font-size: 1.5em;
+}
+/* small screens and tablets */
 
+@media (max-width: 1024px) {
+  /* change font sizes */
+  .history {
+    color:#008CBA;
+    text-align: center;
+    font-size: 5vw;  
+   }
 
-
-  footer {
-    color: blue;
-    background-color: black;
-    height: 20vh;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-  }
-  
-  footer * {
-    padding-bottom: 4vw;
-   
-  }
-  
-  footer form {
-    padding-left: 4vw;
-    position: fixed;
-  }
-  
-  footer p {
-    padding-left: 4vw;
+  .h3{
+    display: flex;
+    justify-content: left;
+    color: #008CBA;
+    font-size: 4vw;
     
   }
-  footer h3 {
-    padding-top: 2vh;
+ 
+  section p{
+    font-size: 2.2vw;
+  }
+}
+
+/* mobile devices */
+
+  
+@media (max-width: 600px) {
+  /* change font sizes */
+  .history {
+    color:#008CBA;
+    text-align: center;
+    font-size: 7vw;  
+   }
+
+  .h3{
+    display: flex;
+    justify-content: left;
+    color: #008CBA;
+    font-size: 5vw;
     
   }
-  footer input[type="submit"] {
-      border: none;
-      color: white;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-      background-color: blue;
-      padding: 15px 32px;
-      
-      
+ 
+  section p{
+    font-size: 3.5vw;
   }
+}
   
-  .donate-submit{
-      display: flex;
-  }
-  
-  a {
-    text-decoration: none;
-  }
+
+
+
+
+
 
   
 
