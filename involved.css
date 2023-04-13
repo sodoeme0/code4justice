@@ -4,7 +4,7 @@
 
 /* paddin, border and font syling for form */
 .form-style-5{
-	
+	 
 	padding: 10px 20px;
 	background: #f4f7f8;
 
@@ -13,7 +13,7 @@
 	border-radius: 8px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
-.form-style-5 fieldset{
+.form-style-5 fieldset{ 
 	border: none;
 }
 
